@@ -1,8 +1,9 @@
 @charset "utf-8";
+html,body{overflow-x: hidden;}
 /* CSS Document */
 .container{width:100%;background:#fff;position: relative;}
 /*公用头部*/
-.hc_header{width:100%;position:fixed;top:0;left:0;right:0;z-index:12;background:#fff;}
+.hc_header{width:100%;position:fixed;top:0;left:0;right:0;z-index:999;background:#fff;}
 .hc_header_inner{width:1320px;;margin:0 auto;}
 .hc_header_inner .hc_header_inner_title{height:40px;line-height:40px;position:relative; font-weight:bolder;}
 .hc_header_inner .hc_header_inner_title .header_right{position:absolute;right:0;top:0;height:40px;}
@@ -49,6 +50,8 @@ ul.hc_nav li.li_choosed, ul.hc_nav li:hover, ul.hc_nav li:visited{background:#a3
 ul.index_sec01_ul{padding:0;}
 ul.index_sec01_ul li{float:left;}
 ul.index_sec01_ul li a{width:330px;display:inline-block;}
+#xian_course_con{ display: none; }
+.index_sec01_ul li img { }
 /*
 ul.index_sec01_ul li a img{-webkit-transition: -webkit-transform .4s ease;
     -moz-transition: -moz-transform .4s ease;
@@ -209,7 +212,7 @@ a.performance_relation{background:#dc4d31;width:306px;height:82px;text-align:cen
 	-o-transform:rotate(90deg) scale(1.1);}
 
 /*首页右侧工具条*/
-.right_toolbar{position:fixed;bottom:100px;right:20px;padding:5px;background:#eee;}
+.right_toolbar{position:fixed;bottom:100px;right:0;z-index:9999;padding:5px;background:#eee;}
 .right_toolbar .toolbar_item{border-bottom:1px solid #ebebeb;text-align:center;font-size:12px;color:#b4b4b4;padding:10px 0;display:block;}
 .right_toolbar .toolbar_item02{padding:15px 0 10px 0;}
 .right_toolbar .toolbar_item03{border:none;}
