@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;font-family:'微软雅黑', tahoma, Srial, helvetica, sans-serif;font-style:normal;}
+body,ul,dl,dd,dt,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,img,td,div,input,textarea,b,i,em,cite{margin:0;padding:0;border:0;outline:0;font:inherit;vertical-align:baseline;-webkit-tap-highlight-color:rgba(0,0,0,0);
+font-family:'微软雅黑', tahoma, Srial, helvetica, sans-serif;font-style:normal;}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
+html{overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+ul,ol,li{list-style-type:none;}
+li{vertical-align:0;}
+h1,h2,h3,h4,h5,h6{ font-weight:normal;}
+a{outline-style:none;color:#333;text-decoration:none;}
+a:hover{color:999; text-decoration:none;}
+body{ background-color:#FFFFFF;}
+body,input,select,textarea{ font-size:1.4em; outline:none;border-radius: 0;}
+input[type='text'],select,textarea{-webkit-appearance:none;}
+object,embed,video{max-width:100%; border:none;margin-top:3px;}
+img{border:none;margin-top:0px;max-width:100%;}
+input, img {vertical-align: middle;}  
+body>img{display:block;}
+/*font-size*/
+html{font-size: 62.5%}
+body, html {margin: 0 auto;  }  
+body {min-width: 360px;overflow-x: hidden;}  
+@media screen and (min-width:375px){
+    html{font-size:72%}
+}
+@media screen and (min-width:414px){
+    html{font-size:80%}
+}
+@media screen and (min-width:481px){
+    html{font-size:86%}
+}
+@media screen and (min-width:561px){
+    html{font-size:102%}
+}
+@media screen and (min-width:641px){
+    html{font-size:106%}
+}
+/* initial */
+.clearfix:after { visibility:hidden; display:block; font-size:0; content:""; clear:both; height:0;}
+.clearfix{ *zoom:1;}
+.hide {display: none}
+.block {display: block}
+.fl, .fr {display: inline}
+.fl{ float:left; display:inline;}
+.fr{ float:right; display:inline;}
+.relative{position: relative;}
+.absolute{position: absolute;}
+
+
+
+
+
