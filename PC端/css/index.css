@@ -49,16 +49,30 @@ ul.hc_nav li.li_choosed, ul.hc_nav li:hover, ul.hc_nav li:visited{background:#a3
 .index_sec01_inner{width:1320px;color:#fff;text-align:center;float:left;}
 ul.index_sec01_ul{padding:0;}
 ul.index_sec01_ul li{float:left;}
-ul.index_sec01_ul li a{width:330px;display:inline-block;text-align: center;margin-top: 38px;}
+ul.index_sec01_ul li a{width:330px;display:inline-block;text-align: center;margin-top: 38px;color: #000;font-size: 30px;}
 #xian_course_con{ display: none; }
 .index_sec01_ul li a .index_sec01_name{ 
     margin-top: 10px;
-    font-size: 30px;
-    color: #4f4f4f;
 }
 .index_sec01_ul li a .index_sec01_english{ 
     font-size: 27px;
     color: #5b5b5b;
+}
+.index_sec01_ul li a .index_sec01_wire{
+    margin: 10px 0 15px 0;
+    height: 3px;
+    background: #c3c3c3;
+}
+.index_sec01_ul li a .index_sec01_event{
+    margin: 6px auto;
+    width: 227px;
+    height: 40px;
+    line-height: 35px;
+    background: #ed5456;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 8px;
 }
 /*
 ul.index_sec01_ul li a img{-webkit-transition: -webkit-transform .4s ease;
@@ -90,8 +104,8 @@ ul.index_sec01_ul li:hover a img{-webkit-transform:translateY(-10px);-moz-transf
 .vedio_ul .vedio_li{float: left;width: 1320px;cursor: pointer;}
 .vedio_block{ width:310px;height:170px;border:1px solid #af1c21;float:left;padding:5px;margin:0 3px;}
 .vedio_block vedio{}
-.index_sec03{margin:45px 0;}
-.index_sec03 img{width:100%;}
+.index_sec03{position: relative; margin:45px 0;height: 526px; background: url('../images/index_newSec03.jpg') no-repeat; background-size: cover;}
+.index_sec03 p{position: absolute; left:0;right:0;bottom: 0;top: 0; margin: auto;width: 513px;height: 245px;background: url('../images/index_newSec03_p.png') no-repeat; background-size: cover; font-size: 20px;line-height: 40px;color: #fff;padding: 20px 50px 0 50px;box-sizing: border-box;text-indent: 10px;opacity: 0.95;}
 .index_sec04_inner{padding-bottom:45px;}
 .index_sec04_inner ul.index_sec04_ul li{float:left;}
 .index_sec04_inner ul.index_sec04_ul li a{display:inline-block;width:330px;height:389px;}
