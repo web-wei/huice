@@ -49,9 +49,17 @@ ul.hc_nav li.li_choosed, ul.hc_nav li:hover, ul.hc_nav li:visited{background:#a3
 .index_sec01_inner{width:1320px;color:#fff;text-align:center;float:left;}
 ul.index_sec01_ul{padding:0;}
 ul.index_sec01_ul li{float:left;}
-ul.index_sec01_ul li a{width:330px;display:inline-block;}
+ul.index_sec01_ul li a{width:330px;display:inline-block;text-align: center;margin-top: 38px;}
 #xian_course_con{ display: none; }
-.index_sec01_ul li img { }
+.index_sec01_ul li a .index_sec01_name{ 
+    margin-top: 10px;
+    font-size: 30px;
+    color: #4f4f4f;
+}
+.index_sec01_ul li a .index_sec01_english{ 
+    font-size: 27px;
+    color: #5b5b5b;
+}
 /*
 ul.index_sec01_ul li a img{-webkit-transition: -webkit-transform .4s ease;
     -moz-transition: -moz-transform .4s ease;
@@ -124,7 +132,7 @@ ul.index_sec01_ul li:hover a img{-webkit-transform:translateY(-10px);-moz-transf
     position: relative;
     overflow: hidden;
     height: 103px;
-	width:219px;
+	width:218.7px;
 	float:left;}
 .brands_bigbox .brands_smallbox .brands_groups a span{opacity:0;}
 .brands_bigbox .brands_smallbox .brands_groups a.model span{width:80%;height:83px;margin:10px auto;background:#34c8ff;text-align:center;line-height:83px;position: absolute;left: 10%;top: 0;color: #fff;transition:all 0.3s ease-out;transform:rotate(360deg);opacity:1;}
