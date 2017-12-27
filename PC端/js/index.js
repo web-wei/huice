@@ -121,7 +121,7 @@ $(function(){
 	//分类
 	$(".performance_into").on("click",function(){
 		var catid=$(this).attr("catid");
-		var top=$(".performance_sec_bar img[catid='"+catid+"']").offset().top;
+		var top=$(".performance_sec_bar li[catid='"+catid+"']").offset().top;
 		$(window).scrollTop(top);
 	});
 });
