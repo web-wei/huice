@@ -75,10 +75,66 @@ ul.index_sec01_ul li a{width:330px;display:inline-block;text-align: center;margi
     border-radius: 8px;
 }
 .index_sec04_ul .index_newSec04_1{
-    width: 313px;
-    height: 275px;
+    width: 330px;
+    height: 389px;
+    text-align: center
+}
+.index_sec04_ul li:nth-of-type(odd) .index_newSec04_1{
+    background: url("../images/index_newsec_back1.png") no-repeat;
+    background-size: initial;
+}
+.index_sec04_ul li:nth-of-type(even) .index_newSec04_1{
     background: url("../images/index_newsec_back.png") no-repeat;
-    background: cover;
+    background-size: initial;
+}
+.index_sec04_ul .index_newSec04_1 .index_newSec04_title{
+    width: 270px;
+    height: 50px;
+    line-height: 52px;
+    color: #cb4c2c;
+    font-size: 30px;
+}
+.index_sec04_ul .index_newSec04_1 .index_newSec04_name{
+    width: 230px;
+    height: 60px;
+    line-height: 70px;
+    font-size: 30px;
+    border-bottom: 1px #f68c04 dashed;
+    margin-left: 26px;
+    color: #27acd7;
+}
+.index_sec04_ul .index_newSec04_1 .index_newSec04_address{
+    width: 290px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #000;
+    margin-top: 15px;
+}
+.index_sec04_ul .index_newSec04_1 .index_newSec04_num{
+    width: 290px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #000;
+}
+.index_sec04_ul .index_newSec04_1 .index_newSec04_event{
+    margin: 120px 0 0 45px;
+    width: 203px;
+    height: 53px;
+    line-height: 53px;
+    background: #de4f31;
+    font-size: 23px;
+    color: #fffff6;
+}
+.index_sec04_inner_23e{
+    height: 133px;
+    background: url(../images/index_sec04_01.png) no-repeat;
+    background-size: contain;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 95px;
 }
 .flexslider{
     background: none !important;
@@ -201,10 +257,142 @@ a.performance_relation{background:#dc4d31;width:306px;height:82px;text-align:cen
 .performance_zt{background:#18395d;height:240px;}
 .performance_zt li{width:165px;float:left;}
 .performance_zt li a img{width:165px;height:240px;}
+.performance_course_content{
+    position: relative;
+    height: 434px;
+    background: url('../images/performance_course.png') no-repeat;
+    background-size: contain;
+    margin-top: 30px;
+}
+.performance_course_content >div{
+    float: left;
+}
+.performance_course_content .performance_course_left{
+    width: 280px;
+    margin-left: 80px;
+    text-align: center;
+}
+.performance_course_content .performance_course_left .performance_course_title{
+    font-size: 80px;
+    color: #ea048a;
+    margin-top: 70px;
+}
+.performance_course_content .performance_course_left .performance_course_h2{
+    font-size: 40px;
+    color: #000;
+    margin-top: 20px;
+}
+.performance_course_content .performance_course_right{
+    width: 887px;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 25px;
+    color: #2f2f2f;
+    line-height: 40px;
+    margin-top: 140px;
+}
+.performance_course_content .performance_course_date{
+    position: absolute;
+    font-size: 45px;
+    color: #f20090;
+    right: 90px;
+    top: 200px;
+}
 /*自动化测试*/
-.auto_abox{width:1320px;}
+.auto_abox{width:1334px;}
 .auto_abox a{display:inline-block;width:50%;}
-
+.auto_testing_title{
+    height: 250px;
+    background: #53bfe6;
+    text-align: center;
+    color: #fff;
+    margin: 30px 0;
+    padding-top: 60px;
+}
+.auto_testing_title p:first-of-type{
+    font-size: 70px;
+    letter-spacing: 10px;
+}
+.auto_testing_title p:last-of-type{
+    font-size: 36px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+.auto_testing_item{
+    height: 176px;
+    width: 1334px;
+}
+.auto_testing_item p{
+    margin-left: 206px;
+    font-size: 60px;
+    color: #000;
+    line-height: 145px;
+    text-align: left;
+}
+.auto_testing_selectItem{
+    height: 596px;
+    width: 1334px;
+}
+.auto_testing_selectItem .auto_selectItem_title{
+    margin-left: 160px;
+    width: 1140px;
+    height: 114px;
+    line-height: 120px;
+    font-size: 60px;
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+.auto_testing_selectItem .auto_selectItem_content{
+    font-size: 30px;
+    color: #fff;
+    line-height: 65px;
+    margin-left: 160px;
+    margin-top: 20px;
+    width: 1140px;
+    text-align: left;
+}
+.auto_test_asec{
+    height: 193px;
+    font-size: 93px;
+    color: #000;
+    letter-spacing: 15px;
+    text-align: center;
+    line-height: 193px;
+}
+.auto_asec_box{
+    height: 288px;
+}
+.auto_asec_des{
+    color: #fff;
+    text-align: left;
+}
+.auto_asec_des span:first-of-type{
+    font-size: 130px;
+    line-height: 130px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.auto_asec_des span:last-of-type{
+    font-size: 55px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.auto_asec_ting{
+    width: 375px;
+    height: 90px;
+    line-height: 90px;
+    background: #dd4d32;
+    color: #fff;
+    font-size: 45px;
+    margin: 40px 0 0 135px;
+}
+.auto_footer_chedan{
+    height: 183px;
+    clear: both;
+    font-size: 50px;
+    padding-top: 40px;
+    letter-spacing: 10px;
+}
 /*测试开发*/
 .development_box{width:100%;margin:0 auto;}
 .development_box .development_item{float:left;width:330px;display:inline-block;}
@@ -212,6 +400,36 @@ a.performance_relation{background:#dc4d31;width:306px;height:82px;text-align:cen
 .development_lc li img{width:100%;}
 .development_lc li.development_sec02_ca{width:108px;}
 .development_lc li.development_sec02_cb{width:65.1428571px;}
+.testDeve_title{
+    height: 688px;
+    background: url('../images/development_sec01.png') no-repeat;
+    background-size: cover;
+    font-size: 47px;
+    color: #fff;
+    position: relative;
+}
+.testDeve_jt{
+    position: absolute;
+    left: 500px;
+    top: 150px;
+}
+.testDeve_mf{
+    color: #ffe60b;
+    position: absolute;
+    left: 340px;
+    top: 380px;
+}
+.testDeve_sz{
+    position: absolute;
+    left: 600px;
+    top: 430px;
+}
+.testDeve_desc{
+    color: #000;
+    padding-left: 660px;
+    padding-top: 250px;
+    font-size: 42px;
+}
 
 /*联系我们*/
 .contact_sec02 a{width:1320px;margin:0 auto;}
@@ -240,8 +458,19 @@ a.performance_relation{background:#dc4d31;width:306px;height:82px;text-align:cen
 .skill_bigbox:hover .skill_box{-webkit-transform:rotate(90deg) scale(1.1); 
 	-moz-transform:rotate(90deg) scale(1.1);
 	-ms-transform:rotate(90deg) scale(1.1);
-	-o-transform:rotate(90deg) scale(1.1);}
-
+    -o-transform:rotate(90deg) scale(1.1);}
+.employment_kec_left{
+    height: 230px;
+    text-align: center;
+}
+.employment_left_title{
+    font-size: 27px;
+    color: #ed8508;
+}
+.employment_left_content{
+    font-size: 20px;
+    color: #fff;
+}
 /*首页右侧工具条*/
 .right_toolbar{position:fixed;bottom:100px;right:0;z-index:9999;padding:5px;background:#eee;}
 .right_toolbar .toolbar_item{border-bottom:1px solid #ebebeb;text-align:center;font-size:12px;color:#b4b4b4;padding:10px 0;display:block;}
