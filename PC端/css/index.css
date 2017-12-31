@@ -485,8 +485,89 @@ a.performance_relation{background:#dc4d31;width:306px;height:82px;text-align:cen
 .right_toolbar .toolbar_item i.return_icon{background-position:0 -100px;}
 .right_toolbar .toolbar_item03:hover i.return_icon{background-position:-50px -100px;}
 
-
-
+/* 联系我们 */
+.contact_us_title{
+    height: 110px;
+    line-height: 110px;
+    font-size: 50px;
+    color: #0491e3;
+    text-align: center;
+}
+.contact_us_title::before{
+    content: '';
+    float: left;
+    width: 520px;
+    height: 1px;
+    background: #898989;
+    text-align: left;
+    margin-top: 60px;
+}
+.contact_us_title::after{
+    content: '';
+    float: right;
+    width: 520px;
+    height: 1px;
+    background: #898989;
+    text-align: right;
+    margin-top: 60px;
+}
+.contact_us_content{
+    height: 700px;
+    font-size: 26px;
+}
+.contact_us_left{
+    float: left;
+    width: 50%;
+}
+.contact_us_left1{
+    float: right;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.contact_us_left p{
+    margin-bottom: 40px;
+}
+.contact_us_left img{
+    width: 100px !important;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.contact_us_left span{
+    display: inline-block;
+    vertical-align: middle;
+    color: #0094de;
+    margin-left: 20px;
+}
+.contact_us_right{
+    float: right;
+    width: 50%;
+    height: 700px;
+    padding-top: 70px;
+}
+.contact_us_right1{
+    float: right;
+}
+.contact_us_right img{
+    width: 100% !important;
+    height: 80%;
+}
+.contact_us_event{
+    width: 180px;
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+    border-radius: 7px;
+    background: #0193dc;
+    color: #fff;
+    font-size: 35px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    clear: both;
+}
+.contact_us_event1{
+    margin-left: 850px;
+}
 
 
 
