@@ -16,6 +16,13 @@
 <script src="js/index.js"></script>
 <script src="js/count_down.js"></script>
 <script src="js/sideToggleExtended.js"></script>
+<script>
+    // rem设置
+    document.documentElement.style.fontSize = innerWidth / 13.2+ "px";
+    window.onresize = function() {
+        document.documentElement.style.fontSize = innerWidth / 13.2 + "px";
+    }
+</script>
 <style>
 input::-webkit-input-placeholder { /* WebKit browsers */
 　　color:#fff;
@@ -46,7 +53,7 @@ input::-webkit-input-placeholder { /* WebKit browsers */
     <div style="width:100%;height:50px;"></div>
     <div class="index_sec02"><img src="images/auto_testing_banner.jpg" /></div>
     <div class="index_sec02">
-    	<img src="images/auto_test_sec01_title.jpg" />
+    	<!-- <img src="images/auto_test_sec01_title.jpg" />
         <div class="tc_switch">
         	<div class="tc_switch_item">
             	<a  href="javascript:void(0);" class="tc_switch_t"><img src="images/auto_test_sec01_con01.jpg" /></a>
@@ -76,9 +83,227 @@ input::-webkit-input-placeholder { /* WebKit browsers */
             	<a  href="javascript:void(0);" class="tc_switch_t"><img src="images/auto_test_sec01_con07.jpg" /></a>
                 <a  href="javascript:void(0);" class="tc_switch_c"><img src="images/auto_test_sec01mes07.jpg" /></a>
             </div>
+        </div> -->
+        <div class="auto_testing_title">
+                <p>慧测2017全新自动化测试课程体系</p>
+                <p>大牛云集，原创让我们走的更远......</p> 
+        </div>
+        <div class="tc_switch">
+        	<div class="tc_switch_item">
+            	<a  href="javascript:void(0);" class="tc_switch_t">
+                    <div class="auto_testing_item" style="background: url('images/auto_sec01_t01.png') no-repeat; background-size: contain;">
+                        <p>Java编程/Python编程</p>
+                    </div>
+                </a>
+                <a  href="javascript:void(0);" class="tc_switch_c">
+                    <div class="auto_testing_selectItem" style="background: url('images/auto_sec01_c01.png') no-repeat; background-size: cover; height: 4.88rem;">
+                        <p class="auto_selectItem_title">Java编程/Python编程</p>
+                        <p class="auto_selectItem_content" style="font-size:.35rem">
+                                1、Java/Python环境配置及入门 &nbsp;&nbsp;
+                                2、Java/Python语言核心基础 <br>
+                                3、Java/Python面向对象程序设计 &nbsp;&nbsp;
+                                4、Java/Python多线程编程<br>
+                                5、Java/Python数据库技术 &nbsp;&nbsp;
+                                6、Java /Python Web相关技术<br>
+                                7、Java/Python读写XML技术 &nbsp;&nbsp;
+                                8、Java/Python读写JSON技术
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="tc_switch_item">
+            	<a  href="javascript:void(0);" class="tc_switch_t">
+                    <div class="auto_testing_item" style="background: url('images/auto_sec01_t02.png') no-repeat; background-size: cover;">
+                        <p>Web前端核心知识</p>
+                    </div>
+                </a>
+                <a  href="javascript:void(0);" class="tc_switch_c">
+                    <div class="auto_testing_selectItem" style="background: url('images/auto_sec01_c02.png') no-repeat; background-size: cover;  height: 4.08rem;">
+                        <p class="auto_selectItem_title">Web前端核心知识</p>
+                        <p class="auto_selectItem_content" >
+                                1、HTTP协议&nbsp;
+                                HTTP请求过程 &nbsp;
+                                HTTP状态码 &nbsp;
+                                HTTP头信息 &nbsp;
+                                Cookies状态管理 &nbsp;
+                                Get、Post方法 &nbsp;
+                                HTTPS <br>
+                                2、W3C标准 &nbsp;
+                                HTML与CSS基础 &nbsp;
+                                JavaScript与HTML DOM &nbsp;
+                                XML基础与文件解析 
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="tc_switch_item">
+            	<a  href="javascript:void(0);" class="tc_switch_t">
+                    <div class="auto_testing_item" style="background: url('images/auto_sec01_t03.png') no-repeat; background-size: cover;">
+                        <p>TestNG应用</p>
+                    </div>
+                </a>
+                <a  href="javascript:void(0);" class="tc_switch_c">
+                    <div class="auto_testing_selectItem" style="background: url('images/auto_sec01_c03.png') no-repeat; background-size: cover;">
+                        <p class="auto_selectItem_title">TestNG应用</p>
+                        <p class="auto_selectItem_content" >
+                                1、TestNG介绍和环境配置 &nbsp;&nbsp;
+                                2、Annotation注解介绍 <br>
+                                3、运行配置详解 &nbsp;
+                                顺序测试 &nbsp;
+                                组测试 &nbsp;
+                                依赖测试 &nbsp;
+                                忽略测试 <br>
+                                4、参数测试 &nbsp;&nbsp;
+                                5、断言Assert &nbsp;&nbsp;
+                                6、测试报告 <br>
+                                7、高级应用 &nbsp;
+                                用例管理 &nbsp;
+                                自动加载失效重运行机制 &nbsp;
+                                多线程平行测试 <br>
+                                自定义监听器和报告器 &nbsp;
+                                自定义检查点模块-Assert类的封装 <br>
+                                测试报告优化-XSLT插件和ReportNG 
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="tc_switch_item">
+            	<a  href="javascript:void(0);" class="tc_switch_t">
+                    <div class="auto_testing_item" style="background: url('images/auto_sec01_t04.png') no-repeat; background-size: cover;">
+                        <p>WebDriver应用（Selenium）</p>
+                    </div>
+                </a>
+                <a  href="javascript:void(0);" class="tc_switch_c">
+                    <div class="auto_testing_selectItem" style="background: url('images/auto_sec01_c03.png') no-repeat; background-size: cover;">
+                        <p class="auto_selectItem_title">WebDriver应用（Selenium）</p>
+                        <p class="auto_selectItem_content" >
+                                1、浏览器操作 IE FireFox Chrome 
+                                2、元素定位方法 单一属性定位 层级定位与多对象 通用定位器 
+                                XPath 
+                                cssSelector 
+                                3、常用控件操作
+                                4、特殊场景
+                                iframe处理 
+                                多窗口操作 
+                                日期控件处理 
+                                图像识别Tesseract-ORC入门 
+                                5、模拟鼠标和键盘操作
+                                6、高级应用
+                                Cookies操作 
+                                页面等待 
+                                JS执行 
+                                截图处理 
+                                7、API封装
+                                元素存在与元素显示判断 
+                                元素加载智能等待 
+                                复杂的多对象操作 
+                                利用正则表达式批量查找元素 
+                                链接有效性批量检查 
+                                建立标准化测试套件 
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="tc_switch_item">
+            	<a  href="javascript:void(0);" class="tc_switch_t">
+                    <div class="auto_testing_item" style="background: url('images/auto_sec01_t05.png') no-repeat; background-size: cover;">
+                        <p>Appium应用</p>
+                    </div>
+                </a>
+                <a  href="javascript:void(0);" class="tc_switch_c">
+                    <div class="auto_testing_selectItem" style="background: url('images/auto_sec01_c03.png') no-repeat; background-size: cover;">
+                        <p class="auto_selectItem_title">Appium应用</p>
+                        <p class="auto_selectItem_content" >
+                                1、Appium框架 
+                                IOS：UIAutomation 
+                                Android：UIAutomator <br>
+                                2、Android测试工具 
+                                ADB 
+                                UIAutomatorviewer 
+                                Monkey <br>
+                                3、Appium通信原理
+                                4、Appium环境搭建
+                                Appium Windows 
+                                Appium OSX <br>
+                                5、Appium调试及异常定位
+                                6、Appium核心应用
+                                Xpath 
+                                元素定位核心方法 <br>
+                                混合App操作 
+                                移动端的Gestures方法 
+                                自动化测试核心用例设计 
+                                基于Appium自动化测试用例设计 
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="tc_switch_item">
+            	<a  href="javascript:void(0);" class="tc_switch_t">
+                    <div class="auto_testing_item" style="background: url('images/auto_sec01_t06.png') no-repeat; background-size: cover;">
+                        <p>接口自动化测试</p>
+                    </div>
+                </a>
+                <a  href="javascript:void(0);" class="tc_switch_c">
+                    <div class="auto_testing_selectItem" style="background: url('images/auto_sec01_c03.png') no-repeat; background-size: cover;">
+                        <p class="auto_selectItem_title">接口自动化测试</p>
+                        <p class="auto_selectItem_content" >
+                                1、接口测试基础 
+                                基于Http协议的接口类型 
+                                基础工具 filddler、postman在接口测试中的应用 
+                                json基础与解析以及gson的应用 
+                                加密算法讲解：Base64、MD5 <br>
+                                2、HttpClient
+                                HttpClient二次开发 
+                                WebService接口测试及SoapUI的使用 
+                                Jsoup应用 
+                                App接口测试 <br>
+                                3、接口自动化测试框架开发
+                                多接口组合的工作流模式 
+                                自定义多检查类型的断言 
+                                与已有UI框架整合 
+                                框架进阶 
+                                建立csv数据驱动模型 
+                                用xml管理接口测试脚本 
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="tc_switch_item">
+            	<a  href="javascript:void(0);" class="tc_switch_t">
+                    <div class="auto_testing_item" style="background: url('images/auto_sec01_t07.png') no-repeat; background-size: cover;">
+                        <p>企业级自动化测试框架开发</p>
+                    </div>
+                </a>
+                <a  href="javascript:void(0);" class="tc_switch_c">
+                    <div class="auto_testing_selectItem" style="background: url('images/auto_sec01_c03.png') no-repeat; background-size: contain;">
+                        <p class="auto_selectItem_title">企业级自动化测试框架开发</p>
+                        <p class="auto_selectItem_content">
+                                1、框架核心思想介绍
+                                2、建立对象仓库 
+                                Page-Object模式 
+                                元素集中管理模式 
+                                3、开发对象操作引擎 4、组织数据驱动
+                                多数据源解析与切换：Yaml Enum Xml 
+                                建立数据层级关系 
+                                5、完善日志管理
+                                Log4J封装 
+                                日志存储 
+                                6、利用XML建立用户配置中心 7、自定义异常处理机制 8、定制测试报告
+                                自定义测试结果集 
+                                ECharts应用 
+                                9、测试结果通知定制
+                                JavaMail封装 
+                                短信接口调用 
+                                10、常用工具类封装
+                                11、版本管理和自动化编译构建
+                                12、持续集成与分布式自动化平台构建
+                        </p>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
-    <div class="index_sec02"><img src="images/auto_test_sec02_title.jpg" /></div>
+    <!-- <div class="index_sec02"><img src="images/auto_test_sec02_title.jpg" /></div>
     <div class="auto_test_relation">
     	<div class="auto_test_relation_line">
         	<a href="javascript:void(0);" class="auto_test_relation_item"><img src="images/auto_test_sec02_con01.jpg" /></a>
@@ -89,7 +314,39 @@ input::-webkit-input-placeholder { /* WebKit browsers */
             <a href="javascript:void(0);" class="auto_test_relation_item"><img src="images/auto_test_sec02_con04.jpg" /></a>
         </div>
     </div>
-    <div class="index_sec02"><img src="images/auto_test_sec02_footer.jpg" /></div>
+    <div class="index_sec02"><img src="images/auto_test_sec02_footer.jpg" /></div> -->
+    <div class="performance_sec_inner"> 
+        <p class="auto_test_asec">我们不止是讲工具</p>
+        <div class="auto_abox">
+            <a href="javascript:void(0);" class="fl">
+                <div class="auto_asec_box" style="background: #f2ab01;">
+                    <p class="auto_asec_des"><span>01</span><span>UI/接口全覆盖</span></p>
+                    <p class="auto_asec_ting">立即试听</p>
+                </div>
+            </a>
+            <a href="javascript:void(0);" class="fr">
+                <div class="auto_asec_box" style="background: #09aaa5;">
+                    <p class="auto_asec_des"><span>02</span><span>免费学习JAVA</span></p>
+                    <p class="auto_asec_ting">立即试听</p>
+                </div>
+            </a>
+        </div>
+        <div class="auto_abox">
+            <a href="javascript:void(0);" class="fl">
+                <div class="auto_asec_box" style="background: #9c9491;">
+                    <p class="auto_asec_des"><span>03</span><span>全程项目实战</span></p>
+                    <p class="auto_asec_ting">立即试听</p>
+                </div>
+            </a>
+            <a href="javascript:void(0);" class="fr">
+                <div class="auto_asec_box" style="background: #44546b;">
+                    <p class="auto_asec_des"><span>04</span><span>决绝理论派</span></p>
+                    <p class="auto_asec_ting">立即试听</p>
+                </div>
+            </a>
+        </div>
+        <p class="auto_footer_chedan">给自己一次机会，至少少走三年弯路<br>你真的可以更好</p>
+    </div>
     <div class="autotest_downtime">
     	<div class="down_timebox">
         	<div class="per_time_show">

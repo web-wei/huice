@@ -16,6 +16,13 @@
 <script src="js/hhSwipe.js"></script>
 <script src="js/index.js"></script>
 <script src="js/sideToggleExtended.js"></script>
+<script>
+    // rem设置
+    document.documentElement.style.fontSize = innerWidth / 10.8+ "px";
+    window.onresize = function() {
+        document.documentElement.style.fontSize = innerWidth / 10.8 + "px";
+    }
+</script>
 <style>
 input::-webkit-input-placeholder { /* WebKit browsers */
 　　color:#fff;
@@ -71,8 +78,46 @@ input::-webkit-input-placeholder { /* WebKit browsers */
 	</article>
 	<!--首页轮播图 end-->
     <div class="index_sec02"><img src="images/employment_class_01.jpg" /></div>
-    <div class="index_sec03">
-    	<a href="javascript:void(0);"><img src="images/employment_class_02.jpg" /></a>
+    <div class="index_sec03" style="height: 12.71rem;
+    background: url('images/employment_class_02.png') no-repeat;
+    background-size: contain;">
+            <a href="javascript:void(0);"/>
+            <div class="employment_kec_left wow fadeInLeft animated"  data-wow-duration=".7" data-wow-delay=".1s" style="padding: .35rem 6rem 0 0;">
+                <p class="employment_left_title">软件测试必备核心知识</p>
+                <p class="employment_left_content">计算机基础 网络核心知识<br>Linux核心知识 数据库核心应用<br>Python核心编程 Web核心知识</p>
+            </div>
+            <!-- <img src="images/employclass_sec_con01.jpg"  class="wow fadeInLeft animated"  data-wow-duration=".7" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;"> -->
+            <a href="javascript:void(0);"/>
+            <div class="employment_kec_left wow fadeInRight animated"  data-wow-duration=".7" data-wow-delay=".2s" style="    padding: .8rem 0 0 6rem;">
+                <p class="employment_left_title">功能测试项目实战</p>
+                <p class="employment_left_content">互联网/电商/管理系统<br>Qualitycenter 需求管理 配置管理 缺陷管理<br>系统测试 接口测试 单元测试 测试用例设计<br>测试基础 测试方法/过程 测试需求分析 软件质量</p>
+            </div>
+            <!-- <img src="images/employclass_sec_con02.jpg"  class="wow fadeInRight animated"  data-wow-duration=".7" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInRight;"> -->
+            <a href="javascript:void(0);" />
+            <div class="employment_kec_left wow fadeInLeft animated"  data-wow-duration=".7" data-wow-delay=".3s" style="    padding: .75rem 6rem 0 0;">
+                <p class="employment_left_title">企业定制(提高)</p>
+                <p class="employment_left_content">Web自动化测试实战(定制)<br>自动化测试原理 SeleniumIDE Web Driver<br>接口自动化测试 Web自动化测试框架构建</p>
+            </div>
+            <!-- <img src="images/employclass_sec_con03.jpg"  class="wow fadeInLeft animated"  data-wow-duration=".7" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;"> -->
+            <a href="javascript:void(0);"/>
+            <div class="employment_kec_left wow fadeInRight animated"  data-wow-duration=".7" data-wow-delay=".4s" style="    padding: 1rem 0 0 6rem;
+            ">
+                <p class="employment_left_title">企业定制(提高)</p>
+                <p class="employment_left_content">Web自动化测试实战(定制)<br>Appium原理及部署 Appium核心应用 业务线接入<br>接口自动化测试 移动自动化测试框架构建</p>
+            </div>
+            <!-- <img src="images/employclass_sec_con04.jpg"  class="wow fadeInRight animated"  data-wow-duration=".7" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;"> -->
+            <a href="javascript:void(0);"/>
+            <div class="employment_kec_left wow fadeInLeft animated"  data-wow-duration=".7" data-wow-delay=".5s" style="padding: 1rem 6rem 0 0;">
+                <p class="employment_left_title">性能测试实战(定制)</p>
+                <p class="employment_left_content">性能测试需求分析 测试脚本开发 测试场景设计<br>测试结果分析 Load Runner Jmeter<br>自定义工具开发</p>
+            </div>
+            <!-- <img src="images/employclass_sec_con05.jpg"  class="wow fadeInLeft animated"  data-wow-duration=".7" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;"> -->
+            <a href="javascript:void(0);"/>
+            <div class="employment_kec_left wow fadeInRight animated"  data-wow-duration=".7" data-wow-delay=".6s" style="padding: 1rem 0 0 6rem;">
+                <p class="employment_left_title">入职锤炼</p>
+                <p class="employment_left_content">行业经验分享 面试指导<br>行业项目演练 简历写作</p>
+            </div>
+            <!-- <img src="images/employclass_sec_con06.jpg"  class="wow fadeInRight animated"  data-wow-duration=".7" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInRight;"> -->
     </div>
     <div class="index_sec02"><img src="images/index_sec05.jpg" /></div>
     <div class="return_home"><a href="index.html"><img src="images/return_home.jpg" /></a></div>

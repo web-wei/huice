@@ -16,6 +16,13 @@
 <script src="js/index.js"></script>
 <script src="js/jquery-lazyload.js"></script>
 <script src="js/sideToggleExtended.js"></script>
+<script>
+    // rem设置
+    document.documentElement.style.fontSize = innerWidth / 13.2+ "px";
+    window.onresize = function() {
+        document.documentElement.style.fontSize = innerWidth / 13.2 + "px";
+    }
+</script>
 <style>
 input::-webkit-input-placeholder { /* WebKit browsers */
 　　color:#fff;
@@ -78,11 +85,63 @@ input::-webkit-input-placeholder { /* WebKit browsers */
 	</article>
 	<!--首页轮播图 end-->
     <div class="index_sec02"><img src="images/relation_us_sec01.jpg" /></div>
-    <div class="index_sec03">
+    <!-- <div class="index_sec03">
     	<a href="javascript:void(0);"><img src="images/relation_us_sec02_02.jpg" /></a>
-    </div>
+    </div> -->
     <div class="index_sec03">
-    	<a href="javascript:void(0);"><img src="images/relation_us_sec02_01.jpg" /></a>
+            <p class="contact_us_title">联系我们</p>        
+            <a href="javascript:void(0)">
+                <div class="contact_us_content">
+                    <div class="contact_us_left">
+                        <p>
+                            <img src="images/contact_us_address.jpg" alt="地址">
+                            <span>北京朝阳区汤立路220号院1号楼007室</span>
+                        </p>
+                        <p>
+                            <img src="images/contact_us_phone.jpg" alt="电话">
+                            <span>联系电话：18518511087</span>
+                        </p>
+                        <p>
+                            <img src="images/contact_us_qq.jpg" alt="qq">
+                            <span>2657535456 65132090</span>
+                        </p>
+                        <p>
+                            <img src="images/contact_us_wc.jpg" alt="微信">
+                            <span>twf65132090</span>
+                        </p>
+                    </div>
+                    <div class="contact_us_right">
+                        <img src="images/contact_us_map.jpg" alt="地图">
+                    </div>
+                </div>
+                <p class="contact_us_event">点击交流</p>
+            </a>
+            <a href="javascript:void(0)">
+                <div class="contact_us_content">
+                    <div class="contact_us_left contact_us_left1">
+                        <p>
+                            <img src="images/contact_us_address.jpg" alt="地址">
+                            <span>北京朝阳区汤立路220号院1号楼007室</span>
+                        </p>
+                        <p>
+                            <img src="images/contact_us_phone.jpg" alt="电话">
+                            <span>联系电话：18518511087</span>
+                        </p>
+                        <p>
+                            <img src="images/contact_us_qq.jpg" alt="qq">
+                            <span>2657535456 65132090</span>
+                        </p>
+                        <p>
+                            <img src="images/contact_us_wc.jpg" alt="微信">
+                            <span>twf65132090</span>
+                        </p>
+                    </div>
+                    <div class="contact_us_right contact_us_right1">
+                        <img src="images/contact_us_map.jpg" alt="地图">
+                    </div>
+                </div>
+                <p class="contact_us_event contact_us_event1">点击交流</p>
+            </a>
     </div>
     <div class="index_sec02"><img src="images/relation_us_sec03.jpg" /></div>
     <div class="qypic_box">
